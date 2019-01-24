@@ -1,0 +1,12 @@
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.listRestaurants {
+	font-size: 5.5vh;
+	margin:auto;
+	display:block;
+	margin-top: 9vh;
+}
