@@ -1,4 +1,5 @@
 .footer {
+	
 	background-color: black;
 	color: white;
 	text-align: center;
@@ -6,7 +7,19 @@
 
 .listRestaurants {
 	font-size: 5.5vh;
+	width: 30%;
 	margin:auto;
 	display:block;
 	margin-top: 9vh;
+}
+
+.imgRestaurant {
+	width: 40%;
+	margin:auto;
+	display:block;	
+	padding: 2vh; 
+}
+
+#listRestaurants {
+	margin-bottom: : 5px;
 }
