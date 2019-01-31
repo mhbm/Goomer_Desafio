@@ -23,3 +23,15 @@
 #listRestaurants {
 	margin-bottom: : 5px;
 }
+
+.imgMenu {
+	 
+    
+    width:  200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}

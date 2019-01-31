@@ -16,7 +16,7 @@ $( document ).ready(function() {
 				//alert(nameRestaurant);
 				//alert(addressRestaurant);
 				//console.log(imageRestaurant);
-				var htmlRestaurant = '<div class="restaurants"><a href="chooseRestaurant.html?id=' + value.id+ '"><img class="imgRestaurant" src="' + imageRestaurant +'" title="' + addressRestaurant + '"/><h4 class="text-center">' + nameRestaurant + '</h4></a></div>';
+				var htmlRestaurant = '<div class="restaurants"><a href="chooseRestaurant.html?id=' + idRestaurant + '&name='+ nameRestaurant+'"><img class="imgRestaurant" src="' + imageRestaurant +'" title="' + addressRestaurant + '"/><h4 class="text-center">' + nameRestaurant + '</h4></a></div>';
 				
 				$("#listRestaurants").append(htmlRestaurant);			
 			});
